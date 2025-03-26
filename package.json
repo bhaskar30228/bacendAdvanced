@@ -2,9 +2,10 @@
   "name": "advancedbackend",
   "version": "1.0.0",
   "description": "This is advance backend ",
-  "main": "app.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,8 @@
     "code"
   ],
   "author": "Bhaskar Pujari",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
